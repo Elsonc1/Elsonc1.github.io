@@ -6,10 +6,15 @@
     <link rel="alternate" hreflang="en" href="https://elsonc1.github.io/en.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Elson Lopes - Software Developer specializing in C#, Java, electronic tax documents and banking integrations">
     <title>Elson Lopes - Software Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="alternate" hreflang="pt" href="pt.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,19 +24,154 @@
     </div>
 
     <header>
-        <div class="container">
-            <h1>Elson Lopes</h1>
-            <h2>Software Developer - NDD Tech</h2>
-            <p>Lages, Santa Catarina, Brazil</p>
+        <div class="container header-content">
+            <div class="profile-header">
+                <img src="assets/images/profile.jpg" alt="Elson Lopes" class="profile-photo">
+                <div class="profile-text">
+                    <h1>Elson Lopes</h1>
+                    <h2>Software Developer - NDD Tech</h2>
+                    <p>Lages, Santa Catarina, Brazil</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="assets/pdf/Profile-EN.pdf" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
         </div>
     </header>
 
     <main class="container">
         <section id="summary">
             <h3><i class="fas fa-user"></i> Professional Summary</h3>
-            <p>Software developer with solid experience in C#, Java and relational databases. Specialist in electronic
-                tax documents (NF-e, CT-e, NFS-e, PAF-ECF, SAT), bank integrations via CNAB 240/400 and data analysis
-                for strategic decisions.</p>
+            <p>Software developer with 5+ years of experience specializing in C#, Java, and relational databases. Expert
+                in electronic tax documents (NF-e, CT-e, NFS-e, PAF-ECF, SAT), banking integrations via CNAB 240/400,
+                and data analysis for strategic decision-making. Passionate about creating efficient, scalable solutions
+                that solve complex business problems.</p>
+        </section>
+
+        <section id="experience">
+            <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+
+            <div class="job">
+                <h4>NDD Tech</h4>
+                <p class="duration">January 2020 - Present</p>
+
+                <div class="position">
+                    <h5>Software Developer</h5>
+                    <ul>
+                        <li>Developed and maintained fiscal document management systems (NF-e, CT-e, NFS-e)</li>
+                        <li>Implemented banking integrations using CNAB 240/400 protocols</li>
+                        <li>Created data analysis tools for strategic business decisions</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
+                        <li>Optimized database performance for large-scale applications</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <h4>Previous Company</h4>
+                <p class="duration">June 2017 - December 2019</p>
+
+                <div class="position">
+                    <h5>Junior Developer</h5>
+                    <ul>
+                        <li>Assisted in developing financial software solutions</li>
+                        <li>Participated in full software development lifecycle</li>
+                        <li>Maintained and updated legacy codebases</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h3><i class="fas fa-code"></i> Technical Skills</h3>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <ul>
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Frameworks & Technologies</h4>
+                    <ul>
+                        <li>.NET Framework/.NET Core</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Entity Framework</li>
+                        <li>Spring Boot</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Specializations</h4>
+                    <ul>
+                        <li>Electronic Tax Documents (NF-e, CT-e, NFS-e)</li>
+                        <li>PAF-ECF and SAT Solutions</li>
+                        <li>Banking Integrations (CNAB 240/400)</li>
+                        <li>Database Design & Optimization</li>
+                        <li>Data Analysis & Reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h3><i class="fas fa-project-diagram"></i> Projects</h3>
+
+            <div class="project">
+                <h4>Fiscal Document Management System</h4>
+                <p class="project-description">A comprehensive system for generating, managing, and tracking electronic
+                    tax documents (NF-e, CT-e, NFS-e) with integration to SEFAZ.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">.NET Core</span>
+                    <span class="tech-tag">SQL Server</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>Banking Integration Platform</h4>
+                <p class="project-description">A middleware solution for processing CNAB 240/400 files, enabling
+                    seamless communication between ERP systems and multiple Brazilian banks.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>Data Analysis Dashboard</h4>
+                <p class="project-description">An interactive dashboard for visualizing and analyzing business data,
+                    helping companies make strategic decisions based on real-time information.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Chart.js</span>
+                    <span class="tech-tag">ASP.NET API</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+
+            <div class="education-item">
+                <h4>Bachelor's in Computer Science</h4>
+                <p class="institution">University of Santa Catarina</p>
+                <p class="duration">2013 - 2017</p>
+            </div>
+
+            <div class="education-item">
+                <h4>Specialization in Software Engineering</h4>
+                <p class="institution">PUC Rio</p>
+                <p class="duration">2018 - 2019</p>
+            </div>
         </section>
     </main>
 
@@ -40,9 +180,13 @@
             <h3>Contact</h3>
             <div class="contact-info">
                 <p><i class="fas fa-envelope"></i> elsouzalopes@gmail.com</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/elson-lopes"
+                        target="_blank">linkedin.com/in/elson-lopes</a></p>
                 <p><i class="fab fa-github"></i> <a href="https://github.com/Elsonc1"
                         target="_blank">github.com/Elsonc1</a></p>
                 <p><i class="fas fa-file-pdf"></i> <a href="assets/pdf/Profile-EN.pdf" target="_blank">Download Resume
+                        (PDF)</a></p>
+                <p><i class="fas fa-file-pdf"></i> <a href="assets/pdf/Cover-Letter-EN.pdf" target="_blank">Cover Letter
                         (PDF)</a></p>
             </div>
         </div>
