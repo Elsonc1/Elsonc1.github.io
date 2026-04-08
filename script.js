@@ -119,4 +119,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('scroll', animateNumbers, { passive: true });
     animateNumbers();
+
+    // === Force PDF download (GitHub Pages serves inline) ===
+    document.querySelectorAll('a[download]').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            var url = this.href;
+            var filename = this.getAttribute('download') || url.split('/').pop();
+            fetch(url)
+                .then(function (response) {
+                    if (!response.ok) throw new Error('HTTP ' + response.status);
+                    return response.blob();
+                })
+                .then(function (blob) {
+                    var a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = filename;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(a.href);
+                })
+                .catch(function () {
+                    window.open(url, '_blank');
+                });
+        });
+    });
 });
