@@ -4,10 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Elson Lopes - Desenvolvedor de Software especialista em C#, .NET, documentos fiscais eletrônicos, multi-banco e integrações empresariais">
     <title>Elson Lopes - Desenvolvedor de Software</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="alternate" hreflang="en" href="en.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="alternate" hreflang="en" href="https://elsonc1.github.io/en.html">
     <link rel="alternate" hreflang="pt" href="https://elsonc1.github.io/pt.html">
 </head>
@@ -19,46 +24,261 @@
     </div>
 
     <header>
-        <div class="container">
-            <h1>Elson Lopes</h1>
-            <h2>Desenvolvedor de Software - NDD Tech</h2>
-            <p>Lages, Santa Catarina, Brasil</p>
+        <div class="container header-content">
+            <div class="profile-header">
+                <img src="assets/images/profile.jpg" alt="Elson Lopes" class="profile-photo">
+                <div class="profile-text">
+                    <h1>Elson Lopes</h1>
+                    <h2>Desenvolvedor de Software - NDD Tech</h2>
+                    <p>Lages, Santa Catarina, Brasil</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="assets/pdf/Profile-PT.pdf" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-download"></i> Baixar Currículo
+                </a>
+            </div>
         </div>
     </header>
 
     <main class="container">
         <section id="summary">
             <h3><i class="fas fa-user"></i> Resumo Profissional</h3>
-            <p>Desenvolvedor de software com experiência sólida em C#, Java e bancos de dados relacionais. Especialista
-                em documentos fiscais eletrônicos (NF-e, CT-e, NFS-e, PAF-ECF, SAT), integrações bancárias via CNAB
-                240/400 e análise de dados para decisões estratégicas.</p>
+            <p>Desenvolvedor de software com 5+ anos de experiência em C#, .NET Framework e arquiteturas multi-banco
+                (SQL Server, Oracle, Informix). Especialista em documentos fiscais eletrônicos (NF-e, CT-e, NFS-e,
+                PAF-ECF, SAT), integrações SEFAZ, migração CNPJ Alfanumérico e sistemas de alta disponibilidade com
+                NHibernate, NServiceBus e Spring.NET. Experiência em desenvolvimento fullstack com React, TypeScript,
+                ASP.NET Core e WPF.</p>
         </section>
 
-        <header>
-            <h1>Elson Vinicius de Souza Lopes</h1>
-            <p>Desenvolvedor | Sua Especialização</p>
-        </header>
+        <section id="experience">
+            <h3><i class="fas fa-briefcase"></i> Experiência Profissional</h3>
 
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Uma breve introdução sobre você, suas habilidades e interesses.</p>
-        </section>
+            <div class="job">
+                <h4>NDD Tech</h4>
+                <p class="duration">Janeiro 2020 - Presente</p>
 
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="project">
-                <h3>Nome do Projeto</h3>
-                <p>Descrição do projeto e tecnologias usadas.</p>
-                <a href="#">Link para o projeto</a>
+                <div class="position">
+                    <h5>Desenvolvedor de Software</h5>
+                    <ul>
+                        <li>Desenvolvimento e manutenção de sistemas de gestão de documentos fiscais (NF-e, CT-e,
+                            NFS-e) com integração SEFAZ multi-UF</li>
+                        <li>Arquitetura multi-banco com NHibernate/FluentNHibernate suportando SQL Server, Oracle e
+                            Informix simultaneamente</li>
+                        <li>Migração CNPJ Alfanumérico em sistemas de alto volume (TBLOGDOCUMENT, TBTRACKSEARCH) com
+                            decomposição de chave de acesso</li>
+                        <li>Desenvolvimento de componentes de integração (SAP, WebService, FTP, Email, MQ Series) na
+                            plataforma AppConnector</li>
+                        <li>Implementação de workflows com NServiceBus/MSMQ no motor MicroFlow</li>
+                        <li>Desenvolvimento de APIs REST com ASP.NET Web API e ASP.NET Core, documentação via
+                            Swagger/OpenAPI</li>
+                        <li>Configuração de IoC com Spring.NET e SimpleInjector em projetos de grande porte</li>
+                        <li>Criação de scripts de atualização de banco para SQL Server, Oracle e Informix</li>
+                        <li>Desenvolvimento com AI-assisted tooling (GitHub Copilot, MCP Server para validação de
+                            padrões)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <h4>Empresa Anterior</h4>
+                <p class="duration">Junho 2017 - Dezembro 2019</p>
+
+                <div class="position">
+                    <h5>Desenvolvedor Júnior</h5>
+                    <ul>
+                        <li>Desenvolvimento de soluções financeiras com integrações bancárias CNAB 240/400</li>
+                        <li>Participação no ciclo completo de desenvolvimento de software</li>
+                        <li>Manutenção e evolução de sistemas legados</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Email: elsouzalopes@gmail.com</p>
-            <p>GitHub: <a href="https://github.com/Elsonc1">github.com/Elsonc1</a></p>
+        <section id="skills">
+            <h3><i class="fas fa-code"></i> Competências Técnicas</h3>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4>Linguagens</h4>
+                    <ul>
+                        <li>C# (.NET Framework 4.5–4.6, .NET Core, .NET 8/10)</li>
+                        <li>TypeScript / JavaScript</li>
+                        <li>T-SQL / PL/SQL</li>
+                        <li>HTML5 / CSS3</li>
+                        <li>XML / JSON</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Frameworks & Plataformas</h4>
+                    <ul>
+                        <li>ASP.NET MVC / Web API / ASP.NET Core</li>
+                        <li>NHibernate / FluentNHibernate</li>
+                        <li>Entity Framework Core</li>
+                        <li>React / Vite / Tailwind CSS</li>
+                        <li>Angular</li>
+                        <li>WPF / WinForms</li>
+                        <li>NServiceBus / MSMQ / RabbitMQ</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Bancos de Dados</h4>
+                    <ul>
+                        <li>SQL Server</li>
+                        <li>Oracle Database</li>
+                        <li>IBM Informix</li>
+                        <li>PostgreSQL / MySQL</li>
+                        <li>SQLite / LiteDB</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Ferramentas & Práticas</h4>
+                    <ul>
+                        <li>Spring.NET / SimpleInjector (IoC)</li>
+                        <li>AutoMapper / Serilog / log4net / NLog</li>
+                        <li>NUnit / Moq / xUnit</li>
+                        <li>Swagger / OpenAPI</li>
+                        <li>Git / MSBuild / NuGet / NSIS</li>
+                        <li>GitHub Copilot / MCP Server</li>
+                        <li>JWT / BouncyCastle (Segurança)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Domínio Fiscal</h4>
+                    <ul>
+                        <li>NF-e / CT-e / NFS-e / PAF-ECF / SAT</li>
+                        <li>Integração SEFAZ multi-UF</li>
+                        <li>CNPJ Alfanumérico / Chave de Acesso</li>
+                        <li>CNAB 240/400 (Integrações Bancárias)</li>
+                        <li>ERP Entrance IN/OUT</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
+        <section id="projects">
+            <h3><i class="fas fa-project-diagram"></i> Projetos</h3>
+
+            <div class="project">
+                <h4>nddConnect Client — Plataforma Fiscal</h4>
+                <p class="project-description">Sistema de gestão de documentos fiscais eletrônicos com arquitetura
+                    multi-banco, suportando SQL Server, Oracle e Informix. Inclui módulos SendDoc, EntryDocuments,
+                    EmissionDocuments e integração SEFAZ para NF-e, CT-e e NFS-e.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">.NET Framework 4.6.2</span>
+                    <span class="tech-tag">NHibernate</span>
+                    <span class="tech-tag">Spring.NET</span>
+                    <span class="tech-tag">SQL Server</span>
+                    <span class="tech-tag">Oracle</span>
+                    <span class="tech-tag">Informix</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>GEF — Gestão de Entrada Física</h4>
+                <p class="project-description">Sistema de gestão de documentos fiscais com módulos de validação,
+                    consulta, workflow, processamento via Windows Services, e portal web ASP.NET MVC com integração
+                    SEFAZ multi-UF.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">ASP.NET MVC</span>
+                    <span class="tech-tag">SimpleInjector</span>
+                    <span class="tech-tag">NHibernate</span>
+                    <span class="tech-tag">AutoMapper</span>
+                    <span class="tech-tag">NLog</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>MicroFlow — Motor de Workflow</h4>
+                <p class="project-description">Motor de workflow com componentes plugáveis (FileReader, SQLServer,
+                    Oracle, WebService, EmailSender, Fork) e mensageria via NServiceBus/MSMQ para orquestração de
+                    processos empresariais.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">NServiceBus</span>
+                    <span class="tech-tag">MSMQ</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">Windows Service</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>AppConnector — Plataforma de Integração</h4>
+                <p class="project-description">Plataforma de integração com arquitetura de plugins para conectar
+                    sistemas SAP, WebService, FTP, Email, Database e MQ Series, com transformações XML e soluções
+                    customizadas por cliente.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">.NET Framework</span>
+                    <span class="tech-tag">NServiceBus</span>
+                    <span class="tech-tag">SOAP</span>
+                    <span class="tech-tag">REST</span>
+                    <span class="tech-tag">NSIS</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>Gastos Residenciais — Controle de Despesas</h4>
+                <p class="project-description">Aplicação fullstack para controle de despesas residenciais com frontend
+                    React + TypeScript + Tailwind CSS e backend ASP.NET Core com Entity Framework Core e SQLite.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">Vite</span>
+                    <span class="tech-tag">.NET 8</span>
+                    <span class="tech-tag">EF Core</span>
+                    <span class="tech-tag">SQLite</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>TransportBidPortal — Portal de Licitações</h4>
+                <p class="project-description">API REST para gestão de licitações de transporte com autenticação JWT,
+                    Entity Framework Core com SQL Server e testes integrados.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">.NET 10</span>
+                    <span class="tech-tag">ASP.NET Core</span>
+                    <span class="tech-tag">EF Core</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">SQL Server</span>
+                    <span class="tech-tag">Swagger</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h4>CSharpEditor — Editor de Código</h4>
+                <p class="project-description">Editor de código C# com syntax highlighting customizado, construído com
+                    WPF e .NET 10.</p>
+                <div class="tech-used">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">WPF</span>
+                    <span class="tech-tag">.NET 10</span>
+                    <span class="tech-tag">XAML</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h3><i class="fas fa-graduation-cap"></i> Formação</h3>
+
+            <div class="education-item">
+                <h4>Bacharelado em Ciência da Computação</h4>
+                <p class="institution">Universidade de Santa Catarina</p>
+                <p class="duration">2013 - 2017</p>
+            </div>
+
+            <div class="education-item">
+                <h4>Especialização em Engenharia de Software</h4>
+                <p class="institution">PUC Rio</p>
+                <p class="duration">2018 - 2019</p>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -66,6 +286,8 @@
             <h3>Contato</h3>
             <div class="contact-info">
                 <p><i class="fas fa-envelope"></i> elsouzalopes@gmail.com</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/elson-lopes"
+                        target="_blank">linkedin.com/in/elson-lopes</a></p>
                 <p><i class="fab fa-github"></i> <a href="https://github.com/Elsonc1"
                         target="_blank">github.com/Elsonc1</a></p>
                 <p><i class="fas fa-file-pdf"></i> <a href="assets/pdf/Profile-PT.pdf" target="_blank">Baixar Currículo
