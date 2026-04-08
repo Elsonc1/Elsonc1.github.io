@@ -2,129 +2,180 @@
 <html lang="en">
 
 <head>
-    <link rel="alternate" hreflang="pt" href="https://elsonc1.github.io/pt.html">
-    <link rel="alternate" hreflang="en" href="https://elsonc1.github.io/en.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Elson Lopes - Software Developer specializing in C#, Java, electronic tax documents and banking integrations">
-    <title>Elson Lopes - Software Developer</title>
+        content="Elson Lopes — Senior Software Developer | C#, .NET, NHibernate, SQL Server, Oracle, Informix | Electronic Tax Documents, SEFAZ Integration, CNPJ Alfanumérico | NDD Tech">
+    <meta name="keywords"
+        content="Elson Lopes, Software Developer, C#, .NET Framework, .NET Core, NHibernate, SQL Server, Oracle, Informix, NF-e, CT-e, NFS-e, SEFAZ, React, TypeScript, ASP.NET Core">
+    <meta name="author" content="Elson Vinicius de Souza Lopes">
+    <meta property="og:title" content="Elson Lopes — Software Developer">
+    <meta property="og:description"
+        content="Professional portfolio — C#, .NET, multi-database architecture, electronic tax documents">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elsonc1.github.io/en.html">
+    <title>Elson Lopes — Software Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="alternate" hreflang="pt" href="https://elsonc1.github.io/pt.html">
+    <link rel="alternate" hreflang="en" href="https://elsonc1.github.io/en.html">
+    <link rel="canonical" href="https://elsonc1.github.io/en.html">
 </head>
 
 <body>
-    <div class="language-switcher">
-        <a href="pt.html" class="language-option">Português</a>
-        <span class="current-language">English</span>
-    </div>
 
-    <header>
+    <!-- Navigation -->
+    <nav class="top-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-logo">elson<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#summary">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#soft-skills">Soft Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        <div class="language-switcher">
+            <a href="pt.html" class="language-option">PT</a>
+            <span class="current-language">EN</span>
+        </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header role="banner">
         <div class="container header-content">
             <div class="profile-header">
-                <img src="assets/images/profile.jpg" alt="Elson Lopes" class="profile-photo">
+                <img src="image/Elson.png" alt="Professional photo of Elson Lopes" class="profile-photo" width="140"
+                    height="140">
                 <div class="profile-text">
                     <h1>Elson Lopes</h1>
-                    <h2>Software Developer - NDD Tech</h2>
-                    <p>Lages, Santa Catarina, Brazil</p>
+                    <h2>Senior Software Developer</h2>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Lages, SC — Brazil</p>
                 </div>
             </div>
             <div class="header-actions">
-                <a href="assets/pdf/Profile-EN.pdf" class="btn btn-primary" target="_blank">
-                    <i class="fas fa-download"></i> Download Resume
+                <a href="documents/CV-EN.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+                    <i class="fas fa-download"></i> Resume PDF
+                </a>
+                <a href="https://www.linkedin.com/in/elsonlopes/" class="btn btn-outline" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
             </div>
         </div>
     </header>
 
-    <main class="container">
-        <section id="summary">
+    <!-- Stats Banner -->
+    <div class="container">
+        <div class="stats-banner" aria-label="Professional metrics">
+            <div class="stat-card reveal">
+                <div class="stat-number">6+</div>
+                <div class="stat-label">Years of Experience</div>
+            </div>
+            <div class="stat-card reveal">
+                <div class="stat-number">8+</div>
+                <div class="stat-label">Enterprise Projects</div>
+            </div>
+            <div class="stat-card reveal">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Database Engines</div>
+            </div>
+            <div class="stat-card reveal">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Fluent Languages</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container" role="main">
+
+        <!-- Summary -->
+        <section id="summary" class="reveal">
             <h3><i class="fas fa-user"></i> Professional Summary</h3>
-            <p>Software developer with 5+ years of experience specializing in C#, .NET Framework, and multi-database
-                architectures (SQL Server, Oracle, Informix). Expert in electronic tax documents (NF-e, CT-e, NFS-e,
-                PAF-ECF, SAT), SEFAZ integration, CNPJ Alfanumérico migration, and high-availability systems using
-                NHibernate, NServiceBus, and Spring.NET. Experienced in fullstack development with React, TypeScript,
-                ASP.NET Core, and WPF.</p>
+            <p>Software Developer with <strong>6+ years of experience</strong> building high-complexity enterprise
+                systems in <strong>C#/.NET</strong>. Expert in <strong>multi-database architecture</strong> (SQL Server,
+                Oracle, Informix) with NHibernate, and in <strong>electronic tax documents</strong> (NF-e, CT-e, NFS-e)
+                with multi-state SEFAZ integration. Technical lead on the <strong>CNPJ Alfanumérico</strong> migration
+                across high-volume tables. Fullstack experience with React, TypeScript, and ASP.NET Core. Passionate
+                about solving complex business problems with clean code and scalable architectures.</p>
         </section>
 
-        <section id="experience">
+        <!-- Experience -->
+        <section id="experience" class="reveal">
             <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+            <div class="timeline">
+                <article class="job">
+                    <h4>NDD Tech</h4>
+                    <span class="duration">Jan 2020 — Present</span>
+                    <div class="position">
+                        <h5>Software Developer</h5>
+                        <ul>
+                            <li>Developed and maintained fiscal document management systems (NF-e, CT-e, NFS-e) with
+                                multi-state SEFAZ integration</li>
+                            <li>Architected multi-database solutions with NHibernate/FluentNHibernate supporting SQL
+                                Server, Oracle, and Informix simultaneously</li>
+                            <li>Led CNPJ Alfanumérico migration on high-volume tables (TBLOGDOCUMENT, TBTRACKSEARCH)
+                                with access key decomposition</li>
+                            <li>Built integration components (SAP, WebService, FTP, Email, MQ Series) on the
+                                AppConnector platform</li>
+                            <li>Implemented enterprise workflows with NServiceBus/MSMQ in the MicroFlow engine</li>
+                            <li>Developed REST APIs with ASP.NET Web API and ASP.NET Core, documented via
+                                Swagger/OpenAPI</li>
+                            <li>Configured IoC containers (Spring.NET, SimpleInjector) in large-scale enterprise
+                                applications</li>
+                            <li>Created database update scripts for SQL Server, Oracle, and Informix</li>
+                            <li>Leveraged AI-assisted development with GitHub Copilot and custom MCP Server for
+                                architectural pattern validation</li>
+                        </ul>
+                    </div>
+                </article>
 
-            <div class="job">
-                <h4>NDD Tech</h4>
-                <p class="duration">January 2020 - Present</p>
-
-                <div class="position">
-                    <h5>Software Developer</h5>
-                    <ul>
-                        <li>Developed and maintained fiscal document management systems (NF-e, CT-e, NFS-e) with
-                            multi-state SEFAZ integration</li>
-                        <li>Architected multi-database solutions with NHibernate/FluentNHibernate supporting SQL Server,
-                            Oracle, and Informix simultaneously</li>
-                        <li>Led CNPJ Alfanumérico migration on high-volume tables (TBLOGDOCUMENT, TBTRACKSEARCH) with
-                            access key decomposition</li>
-                        <li>Built integration components (SAP, WebService, FTP, Email, MQ Series) on the AppConnector
-                            platform</li>
-                        <li>Implemented enterprise workflows with NServiceBus/MSMQ in the MicroFlow engine</li>
-                        <li>Developed REST APIs with ASP.NET Web API and ASP.NET Core, documented via Swagger/OpenAPI
-                        </li>
-                        <li>Configured IoC containers (Spring.NET, SimpleInjector) in large-scale enterprise
-                            applications</li>
-                        <li>Created database update scripts for SQL Server, Oracle, and Informix</li>
-                        <li>Leveraged AI-assisted development with GitHub Copilot and custom MCP Server for pattern
-                            validation</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="job">
-                <h4>Previous Company</h4>
-                <p class="duration">June 2017 - December 2019</p>
-
-                <div class="position">
-                    <h5>Junior Developer</h5>
-                    <ul>
-                        <li>Developed financial software solutions with banking integrations (CNAB 240/400)</li>
-                        <li>Participated in full software development lifecycle</li>
-                        <li>Maintained and evolved legacy codebases</li>
-                    </ul>
-                </div>
+                <article class="job">
+                    <h4>Previous Company</h4>
+                    <span class="duration">Jun 2017 — Dec 2019</span>
+                    <div class="position">
+                        <h5>Junior Developer</h5>
+                        <ul>
+                            <li>Developed financial software solutions with banking integrations (CNAB 240/400)</li>
+                            <li>Participated in full software development lifecycle (requirements, code, testing,
+                                deployment)</li>
+                            <li>Maintained and evolved legacy codebases with focus on stability</li>
+                        </ul>
+                    </div>
+                </article>
             </div>
         </section>
 
-        <section id="skills">
+        <!-- Technical Skills -->
+        <section id="skills" class="reveal">
             <h3><i class="fas fa-code"></i> Technical Skills</h3>
             <div class="skills-container">
                 <div class="skill-category">
-                    <h4>Programming Languages</h4>
+                    <h4><i class="fas fa-terminal"></i> Languages</h4>
                     <ul>
-                        <li>C# (.NET Framework 4.5–4.6, .NET Core, .NET 8/10)</li>
+                        <li>C# (.NET Framework 4.5–4.6.2)</li>
+                        <li>C# (.NET Core / .NET 8 / .NET 10)</li>
                         <li>TypeScript / JavaScript</li>
                         <li>T-SQL / PL/SQL</li>
                         <li>HTML5 / CSS3</li>
-                        <li>XML / JSON</li>
                     </ul>
                 </div>
-
                 <div class="skill-category">
-                    <h4>Frameworks & Platforms</h4>
+                    <h4><i class="fas fa-layer-group"></i> Frameworks</h4>
                     <ul>
-                        <li>ASP.NET MVC / Web API / ASP.NET Core</li>
+                        <li>ASP.NET MVC / Web API / Core</li>
                         <li>NHibernate / FluentNHibernate</li>
                         <li>Entity Framework Core</li>
                         <li>React / Vite / Tailwind CSS</li>
-                        <li>Angular</li>
-                        <li>WPF / WinForms</li>
-                        <li>NServiceBus / MSMQ / RabbitMQ</li>
+                        <li>Angular / WPF / WinForms</li>
                     </ul>
                 </div>
-
                 <div class="skill-category">
-                    <h4>Databases</h4>
+                    <h4><i class="fas fa-database"></i> Databases</h4>
                     <ul>
                         <li>SQL Server</li>
                         <li>Oracle Database</li>
@@ -133,168 +184,260 @@
                         <li>SQLite / LiteDB</li>
                     </ul>
                 </div>
-
                 <div class="skill-category">
-                    <h4>Tools & Practices</h4>
+                    <h4><i class="fas fa-cogs"></i> Tools & DevOps</h4>
                     <ul>
-                        <li>Spring.NET / SimpleInjector (IoC)</li>
-                        <li>AutoMapper / Serilog / log4net / NLog</li>
+                        <li>Git / GitHub / MSBuild</li>
                         <li>NUnit / Moq / xUnit</li>
                         <li>Swagger / OpenAPI</li>
-                        <li>Git / MSBuild / NuGet / NSIS</li>
+                        <li>NServiceBus / MSMQ / RabbitMQ</li>
                         <li>GitHub Copilot / MCP Server</li>
-                        <li>JWT / BouncyCastle (Security)</li>
                     </ul>
                 </div>
-
                 <div class="skill-category">
-                    <h4>Fiscal Domain</h4>
+                    <h4><i class="fas fa-file-invoice"></i> Fiscal Domain</h4>
                     <ul>
-                        <li>NF-e / CT-e / NFS-e / PAF-ECF / SAT</li>
+                        <li>NF-e / CT-e / NFS-e / SAT</li>
                         <li>SEFAZ Integration (Multi-State)</li>
                         <li>CNPJ Alfanumérico / Access Key</li>
-                        <li>CNAB 240/400 (Banking Integrations)</li>
+                        <li>CNAB 240/400 (Banking)</li>
                         <li>ERP Entrance IN/OUT</li>
                     </ul>
                 </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-puzzle-piece"></i> Architecture</h4>
+                    <ul>
+                        <li>Spring.NET / SimpleInjector (IoC)</li>
+                        <li>AutoMapper / Serilog / log4net</li>
+                        <li>JWT / BouncyCastle</li>
+                        <li>Windows Services</li>
+                        <li>SOAP / REST / XML / JSON</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <section id="projects">
+        <!-- Soft Skills -->
+        <section id="soft-skills" class="reveal">
+            <h3><i class="fas fa-heart"></i> Soft Skills</h3>
+            <div class="soft-skills-grid">
+                <div class="soft-skill-item">
+                    <i class="fas fa-lightbulb"></i> Problem Solving
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-comments"></i> Clear Communication
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-users"></i> Teamwork
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-sync-alt"></i> Adaptability
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-bullseye"></i> Results-Driven
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-book-reader"></i> Continuous Learning
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-chess"></i> Analytical Thinking
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-handshake"></i> Cross-team Collaboration
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-clock"></i> Time Management
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-shield-alt"></i> Ownership & Accountability
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-search"></i> Attention to Detail
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-chalkboard-teacher"></i> Peer Mentoring
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="reveal">
             <h3><i class="fas fa-project-diagram"></i> Projects</h3>
+            <div class="projects-grid">
 
-            <div class="project">
-                <h4>nddConnect Client — Fiscal Platform</h4>
-                <p class="project-description">Electronic fiscal document management system with multi-database
-                    architecture supporting SQL Server, Oracle, and Informix. Includes SendDoc, EntryDocuments,
-                    EmissionDocuments modules and SEFAZ integration for NF-e, CT-e, and NFS-e.</p>
-                <div class="tech-used">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">.NET Framework 4.6.2</span>
-                    <span class="tech-tag">NHibernate</span>
-                    <span class="tech-tag">Spring.NET</span>
-                    <span class="tech-tag">SQL Server</span>
-                    <span class="tech-tag">Oracle</span>
-                    <span class="tech-tag">Informix</span>
+                <div class="project-card">
+                    <h4><i class="fas fa-file-invoice-dollar"></i> nddConnect Client</h4>
+                    <p class="project-description">Fiscal platform with multi-database architecture supporting SQL
+                        Server, Oracle, and Informix. SendDoc, EntryDocuments, EmissionDocuments modules and SEFAZ
+                        integration for NF-e, CT-e, and NFS-e.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">.NET 4.6.2</span>
+                        <span class="tech-tag">NHibernate</span>
+                        <span class="tech-tag">Spring.NET</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">Oracle</span>
+                        <span class="tech-tag">Informix</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <h4>GEF — Physical Entry Management</h4>
-                <p class="project-description">Fiscal document management system with validation, query, and workflow
-                    modules, Windows Services processing, and ASP.NET MVC web portal with multi-state SEFAZ
-                    integration.</p>
-                <div class="tech-used">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">ASP.NET MVC</span>
-                    <span class="tech-tag">SimpleInjector</span>
-                    <span class="tech-tag">NHibernate</span>
-                    <span class="tech-tag">AutoMapper</span>
-                    <span class="tech-tag">NLog</span>
+                <div class="project-card">
+                    <h4><i class="fas fa-warehouse"></i> GEF — Physical Entry Management</h4>
+                    <p class="project-description">Fiscal document system with validation, query, and workflow modules,
+                        Windows Services processing, and ASP.NET MVC web portal with multi-state SEFAZ integration.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">ASP.NET MVC</span>
+                        <span class="tech-tag">SimpleInjector</span>
+                        <span class="tech-tag">NHibernate</span>
+                        <span class="tech-tag">AutoMapper</span>
+                        <span class="tech-tag">NLog</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <h4>MicroFlow — Workflow Engine</h4>
-                <p class="project-description">Pluggable workflow engine with components (FileReader, SQLServer, Oracle,
-                    WebService, EmailSender, Fork) and NServiceBus/MSMQ messaging for enterprise process
-                    orchestration.</p>
-                <div class="tech-used">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">NServiceBus</span>
-                    <span class="tech-tag">MSMQ</span>
-                    <span class="tech-tag">SQLite</span>
-                    <span class="tech-tag">Windows Service</span>
+                <div class="project-card">
+                    <h4><i class="fas fa-sitemap"></i> MicroFlow — Workflow Engine</h4>
+                    <p class="project-description">Pluggable workflow engine with FileReader, SQLServer, Oracle,
+                        WebService, EmailSender components and NServiceBus/MSMQ messaging for enterprise
+                        orchestration.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">NServiceBus</span>
+                        <span class="tech-tag">MSMQ</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">Windows Service</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <h4>AppConnector — Integration Platform</h4>
-                <p class="project-description">Plugin-based integration platform connecting SAP, WebService, FTP, Email,
-                    Database, and MQ Series systems with XML transformations and per-client custom solutions.</p>
-                <div class="tech-used">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">.NET Framework</span>
-                    <span class="tech-tag">NServiceBus</span>
-                    <span class="tech-tag">SOAP</span>
-                    <span class="tech-tag">REST</span>
-                    <span class="tech-tag">NSIS</span>
+                <div class="project-card">
+                    <h4><i class="fas fa-plug"></i> AppConnector — Integration</h4>
+                    <p class="project-description">Plugin-based integration platform connecting SAP, WebService, FTP,
+                        Email, Database, and MQ Series with XML transformations and per-client solutions.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">.NET Framework</span>
+                        <span class="tech-tag">NServiceBus</span>
+                        <span class="tech-tag">SOAP / REST</span>
+                        <span class="tech-tag">NSIS</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <h4>Gastos Residenciais — Expense Tracker</h4>
-                <p class="project-description">Fullstack application for household expense tracking with React +
-                    TypeScript + Tailwind CSS frontend and ASP.NET Core backend with Entity Framework Core and
-                    SQLite.</p>
-                <div class="tech-used">
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">TypeScript</span>
-                    <span class="tech-tag">Tailwind CSS</span>
-                    <span class="tech-tag">Vite</span>
-                    <span class="tech-tag">.NET 8</span>
-                    <span class="tech-tag">EF Core</span>
-                    <span class="tech-tag">SQLite</span>
+                <div class="project-card">
+                    <h4><i class="fas fa-wallet"></i> Gastos Residenciais</h4>
+                    <p class="project-description">Fullstack expense tracker with React + TypeScript + Tailwind CSS
+                        frontend and ASP.NET Core backend with Entity Framework Core and SQLite.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">Vite</span>
+                        <span class="tech-tag">.NET 8</span>
+                        <span class="tech-tag">EF Core</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <h4>TransportBidPortal — Bidding Portal</h4>
-                <p class="project-description">REST API for transport bidding management with JWT authentication, Entity
-                    Framework Core with SQL Server, and integrated testing.</p>
-                <div class="tech-used">
-                    <span class="tech-tag">.NET 10</span>
-                    <span class="tech-tag">ASP.NET Core</span>
-                    <span class="tech-tag">EF Core</span>
-                    <span class="tech-tag">JWT</span>
-                    <span class="tech-tag">SQL Server</span>
-                    <span class="tech-tag">Swagger</span>
+                <div class="project-card">
+                    <h4><i class="fas fa-truck"></i> TransportBidPortal</h4>
+                    <p class="project-description">REST API for transport bidding management with JWT authentication,
+                        Entity Framework Core with SQL Server, and integrated testing.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">.NET 10</span>
+                        <span class="tech-tag">ASP.NET Core</span>
+                        <span class="tech-tag">EF Core</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">Swagger</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <h4>CSharpEditor — Code Editor</h4>
-                <p class="project-description">C# code editor with custom syntax highlighting, built with WPF and .NET
-                    10.</p>
-                <div class="tech-used">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">WPF</span>
-                    <span class="tech-tag">.NET 10</span>
-                    <span class="tech-tag">XAML</span>
+                <div class="project-card">
+                    <h4><i class="fas fa-code"></i> CSharpEditor</h4>
+                    <p class="project-description">C# code editor with custom syntax highlighting, built with WPF and
+                        .NET 10.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">WPF</span>
+                        <span class="tech-tag">.NET 10</span>
+                        <span class="tech-tag">XAML</span>
+                    </div>
                 </div>
+
+                <div class="project-card">
+                    <h4><i class="fas fa-file-alt"></i> LayoutParser Suite</h4>
+                    <p class="project-description">Tool suite for fiscal layout parsing with REST API, parsing library,
+                        and decryption utility.</p>
+                    <div class="tech-used">
+                        <span class="tech-tag">.NET 10</span>
+                        <span class="tech-tag">.NET 4.8.1</span>
+                        <span class="tech-tag">Serilog</span>
+                        <span class="tech-tag">Swagger</span>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <section id="education">
+        <!-- Education -->
+        <section id="education" class="reveal">
             <h3><i class="fas fa-graduation-cap"></i> Education</h3>
 
             <div class="education-item">
-                <h4>Bachelor's in Computer Science</h4>
-                <p class="institution">University of Santa Catarina</p>
-                <p class="duration">2013 - 2017</p>
+                <div class="education-icon"><i class="fas fa-university"></i></div>
+                <div class="education-details">
+                    <h4>Bachelor's in Computer Science</h4>
+                    <p class="institution">University of Santa Catarina</p>
+                    <span class="duration">2013 — 2017</span>
+                </div>
             </div>
 
             <div class="education-item">
-                <h4>Specialization in Software Engineering</h4>
-                <p class="institution">PUC Rio</p>
-                <p class="duration">2018 - 2019</p>
+                <div class="education-icon"><i class="fas fa-award"></i></div>
+                <div class="education-details">
+                    <h4>Specialization in Software Engineering</h4>
+                    <p class="institution">PUC Rio</p>
+                    <span class="duration">2018 — 2019</span>
+                </div>
             </div>
         </section>
+
+        <!-- Languages -->
+        <section id="languages" class="reveal">
+            <h3><i class="fas fa-globe"></i> Languages</h3>
+            <div class="soft-skills-grid">
+                <div class="soft-skill-item">
+                    <i class="fas fa-flag"></i> Portuguese — Native
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-flag"></i> English — Advanced
+                </div>
+                <div class="soft-skill-item">
+                    <i class="fas fa-flag"></i> Spanish — Intermediate
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer role="contentinfo">
         <div class="container">
-            <h3>Contact</h3>
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> elsouzalopes@gmail.com</p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/elson-lopes"
-                        target="_blank">linkedin.com/in/elson-lopes</a></p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/Elsonc1"
-                        target="_blank">github.com/Elsonc1</a></p>
-                <p><i class="fas fa-file-pdf"></i> <a href="assets/pdf/Profile-EN.pdf" target="_blank">Download Resume
-                        (PDF)</a></p>
-                <p><i class="fas fa-file-pdf"></i> <a href="assets/pdf/Cover-Letter-EN.pdf" target="_blank">Cover Letter
-                        (PDF)</a></p>
+            <h3>Let's Connect</h3>
+            <div class="contact-grid">
+                <a href="mailto:elsouzalopes@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i> elsouzalopes@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/elsonlopes/" class="contact-link" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i> linkedin.com/in/elsonlopes
+                </a>
+                <a href="https://github.com/Elsonc1" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> github.com/Elsonc1
+                </a>
+                <a href="documents/CV-EN.pdf" class="contact-link" target="_blank" rel="noopener">
+                    <i class="fas fa-file-pdf"></i> Resume PDF
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elson Lopes. Crafted with dedication.</p>
             </div>
         </div>
     </footer>
